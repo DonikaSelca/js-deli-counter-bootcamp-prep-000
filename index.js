@@ -21,7 +21,7 @@ function currentLine(array) {
   } else {
     for(var i = 0; i < array.length; i++) {
         if(i == array.length - 1){
-          nameString += `${[i + 1]}. ${array[i]} `;
+          nameString += `${[i + 1]}. ${array[i]}`;
         } else {
           nameString += `${[i + 1]}. ${array[i]}, `;
         }
