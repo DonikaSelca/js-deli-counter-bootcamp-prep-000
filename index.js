@@ -20,11 +20,11 @@ function currentLine(array) {
     return "The line is currently empty.";
   } else {
     for(var i = 0; i < array.length; i++) {
-        if(i == array.length - 1){
-          nameString += `${[i + 1]}. ${array[i]}`;
-        } else {
-          nameString += `${[i + 1]}. ${array[i]}, `;
-        }
+      if(i == array.length - 1) {
+        nameString += `${[i + 1]}. ${array[i]}`;
+      } else {
+        nameString += `${[i + 1]}. ${array[i]}, `;
+      }
     }
   return nameString;
   }
