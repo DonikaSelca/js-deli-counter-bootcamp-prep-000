@@ -22,7 +22,7 @@ function currentLine(array) {
     for(var i = 0; i < array.length; i++) {
       nameString += `${[i + 1]}. ${array[i]}, `;
         if(i == array.length - 1){
-          nameString += `${[i + 1]}. ${array[i]}`;
+          nameString += ``;
         }
     }
   return nameString;
