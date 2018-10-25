@@ -20,7 +20,7 @@ function currentLine(array) {
     return "The line is currently empty.";
   } else {
     for(var i = 0; i < array.length; i++) {
-      nameString += `${[i + 1]}. ${array[i]},`;
+      nameString += `${[i + 1]}. ${array[i]}, `;
     }
   return nameString;
   }
